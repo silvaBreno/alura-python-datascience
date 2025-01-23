@@ -1,4 +1,6 @@
 import os
+
+
 # Complete the solve function below.
 def solve(s):
     result = ""
@@ -7,6 +9,7 @@ def solve(s):
             result += word.capitalize()
         result += " "  # Adiciona o espaço novamente
     return result.rstrip()  # Remove o último espaço extra
+
 
 # Exemplo de uso
 full_name = input("Enter a full name: ")
